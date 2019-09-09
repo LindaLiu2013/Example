@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 91px;
+  pointer-events: none;
+}
+
+.App-header {
+  height: 91px;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.banner{
+  background-color: #1a1a1a;
+  width: 100%;
+  text-align: center;
+}
+
+.menuBar{
+background-color:#0a5e77;
+text-align:center;
+display: table;
+width: 100%;
+
+}
+
+.menuBar ul{
+  list-style: none;
+  display: table;
+}
+
+.menuBar li{
+  float: left;
+  padding-left: 8px;
+}
+
+.menuBar li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.form-textbox {
+	width: 100%;
+	padding: 0 5px 0 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	color: #000 !important;
+  text-Align: center;
+    color: #b0b0b0;
+    border-color: #15738d;
+    height: 30px;
+    padding-left: 5px;
+    font-size: "12px"
+}
+
+.sbsb_b {
+  list-style: none;
+    padding-left: 5px;
+    border: 1px solid rgb(21, 115, 141);
+    width: 190px;
+	max-height: 400px;
+	overflow-y: auto;
+	font-size: 13px;
+	background-color: #fff;
+	position: absolute;
+	z-index:100;
+  margin-top: 0px;
+}
+
+.sbsb_b li:hover {
+	background-color: #45c1cb;
+}
+
+.sbsb_b li {
+	font-size:12px !important;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
